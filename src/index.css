@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color: #fff;;
+}
+
+body {
+    background-color: #111;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.customScrollbar::-webkit-scrollbar {
+    background: #111; /* Dark background for the track */
+    border-radius: 10px; /* Optional: Rounded corners for the track */
+}
+
+.customScrollbar::-webkit-scrollbar-thumb {
+    background: #333; /* Light background for the thumb */
+    border-radius: 10px; /* Optional: Rounded corners for the thumb */
+}
